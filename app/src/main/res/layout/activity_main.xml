@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_margin="30dp"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/firstNumberET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Number"
+        android:inputType="numberSigned" />
+
+    <EditText
+        android:id="@+id/secondNumberET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:hint="Second Number" />
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Numbers in Broadcast Receiver \n and \nreceive Result"
+        android:textSize="15sp"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="false"
+        android:onClick="add_numbers_in_BR_and_receive_result"/>
+
+
+    <TextView
+        android:id="@+id/resultTV"
+        android:layout_marginTop="30sp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESULT"
+        android:textSize="40sp"/>
+
+
+
+</LinearLayout>
